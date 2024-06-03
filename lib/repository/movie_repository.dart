@@ -5,7 +5,7 @@ import 'package:http/http.dart';
 import 'package:the_movie_db/model/movie_model.dart';
 
 class MovieRepository {
-  static String apiKey = 'b417edac46940a89ab9ef14637cb826e';
+  static String apiKey = '';
 
   Future getData(String url) async {
     final response = await get(Uri.parse(url));
